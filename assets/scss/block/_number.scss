@@ -1,0 +1,44 @@
+.number {
+  &__box {
+    margin-top: 80px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+  &__span {
+    width: 20px;
+    height: 28px;
+    color: #eb5757;
+  }
+  &__span1 {
+    color: #eb5757;
+  }
+  &__list p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+  }
+}
+
+@media (max-width: 560px) {
+  .number {
+    &__title {
+      font-size: 44px;
+      line-height: 48px;
+    }
+  }
+}

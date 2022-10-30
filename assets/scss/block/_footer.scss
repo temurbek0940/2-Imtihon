@@ -1,0 +1,130 @@
+.footer {
+  background: #34495e;
+  margin-top: 80px;
+  &__box {
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    margin-top: 32px;
+    margin-bottom: 9px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__item {
+    border-right: 2px solid #f2f2f2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 0 8px;
+  }
+  &__item:last-child {
+    border: none;
+  }
+  &__item:nth-child(1) {
+    padding: 0;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #e0e0e0;
+  }
+  &__titleh5 {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 24px;
+  }
+  &__input {
+    margin-bottom: 40px;
+    width: 174px;
+    max-width: 100%;
+    height: 44px;
+    background: #253544;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #bdbdbd;
+    margin-right: 20px;
+  }
+  &__btn {
+    position: relative;
+    top: 5px;
+    background: #5199ff;
+    border-radius: 2px;
+    padding: 8px;
+    border: none;
+  }
+  &__card2-content {
+    gap: 18px;
+  }
+}
+@media (max-width: 900px) {
+  .footer {
+    &__box {
+      display: flex;
+      flex-direction: column;
+    }
+    &__card2 {
+      display: flex;
+    }
+    &__titleh5 {
+      margin-top: 32px;
+      width: 255px;
+    }
+    &__h5 {
+      margin-left: 70px;
+    }
+    &__card2-content {
+      margin-top: 43px;
+      margin-left: 74px;
+    }
+    &__box {
+      padding-top: 0;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    &__list {
+      display: none;
+    }
+    &__title {
+      margin-top: 30px;
+    }
+    &__card2 {
+      flex-direction: column-reverse;
+    }
+    &__card2-content {
+      margin-top: 0;
+      margin-left: 0;
+    }
+    &__h5 {
+      margin-left: 0;
+    }
+    &__titleh5 {
+      margin: 32px 0 16px;
+    }
+    &__title {
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+}

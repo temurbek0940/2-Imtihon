@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "./assets/Page/index.html"
+status=200
